@@ -11,9 +11,10 @@ Smart BP represents an innovative shift from conventional cuff-based blood press
 
 1. [Project Overview](#project-overview)
 2. [Methodology](#methodology)
-3. [Models](#models)
-4. [Usage](#usage)
-5. [Results](#results)
+3. [Dataset](#dataset)
+4. [Models](#models)
+5. [Usage](#usage)
+6. [Results](#results)
 
 
 
@@ -32,6 +33,30 @@ Smart BP uses deep learning techniques, specifically Bi-Directional Long Short-T
 - **Bi-LSTM**: Captures temporal dependencies in both forward and backward directions.
 - **Attention Layers**: Selectively focuses on relevant parts of the input data.
 - **PPG and ECG Signals**: Used as input features for blood pressure estimation.
+
+## **Dataset**
+
+### Visualisation and Representations:
+
+<table>
+  <tr>
+    <th>PPG Sample</th>
+    <th>ECG Sample</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/df657c54-bd16-4e2d-8536-e0c7f68fded3" alt="PPG Sample" width="900"></td>
+    <td><img src="https://github.com/user-attachments/assets/55d1d371-4183-46d7-bf5a-6e827ed0d357" alt="ECG Sample" width="900"></td>
+  </tr>
+  <tr>
+    <th colspan="2">Distribution of ABP, SBP, and DBP</th>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:center;"><img src="https://github.com/user-attachments/assets/3be4fbff-e2d9-4fe3-9f03-978fd3d00d7e" alt="ABP SBP DBP Distribution" width="1000"></td>
+  </tr>
+</table>
+
+
+
 
 ## **Models**
 
